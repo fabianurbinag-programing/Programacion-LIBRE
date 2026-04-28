@@ -1,1 +1,21 @@
+import time
 
+edad = int(input("Dime tu edad:"))
+time.sleep(1)
+if edad >= 70:
+    print("LOGRO DESBLOQUEADO...")
+    time.sleep(1)
+    print("VETERANO DE GUERRA... ")
+elif edad >= 18:
+    print("Analizando...n/...")
+    time.sleep(0.7)
+    print("Analisis Terminado")
+    time.sleep(0.7)
+    print("Bienvenido")
+else:
+    print("Analizando...")
+    time.sleep(1.7)
+    print("Analisis Terminado")
+    time.sleep(2.7)
+    print("Lo siento, no puedes acceder.")
+    exit()
